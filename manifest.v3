@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Values version="2.0">
-  <value name="enabled">yes</value>
+  <value name="enabled">no</value>
   <value name="lazy_load">yes</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
@@ -12,17 +12,18 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="WmSalesforceProvider">12.0.0.0.25</value>
     <value name="SIQAJDBCAdapterTests">1.0</value>
+    <value name="SIQACloudStreamsTests">1.0</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">12</value>
+  <value name="build">13</value>
   <null name="description"/>
   <value name="created_date">15-10-2026 05:20:16 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-10-15T08:45:46.703466335Z</value>
+  <value name="lastUpdated">2026-10-15T08:47:54.690602665Z</value>
   <value name="creator">Abhishek Kumar</value>
 </Values>
