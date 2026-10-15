@@ -7,3 +7,14 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: WmSalesforceProvider
+  version: 12.0.0.0.25
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
+services:
+- serviceName: project.mjan15octcp4i.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:Cp4iSFBasicAuth
+  packages:
+  - name: MJAN15OctCP4iProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
