@@ -12,7 +12,7 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
 services:
-- serviceName: project.mjan15octcp4i.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:Cp4iSFBasicAuth
+- serviceName: project.mjan15octcp4i.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SFSoap
   packages:
   - name: MJAN15OctCP4iProject
     version: "1.0"
